@@ -1,0 +1,5 @@
+theme: jekyll-theme-slate
+name: Global Income Distribution
+
+kramdown:
+  parse_block_html: true

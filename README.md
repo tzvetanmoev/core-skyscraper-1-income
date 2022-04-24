@@ -1,46 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <meta name="description" content="Globalinc : Visualisation of the Global Income Distribution since 1980">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="/Globalinc/assets/css/style.css?v=26b087d95314da8656b0e41ad0d10491f8ad36dc">
-
-    <title>Globalinc</title>
-  </head>
-  
-     <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href=""></a>
-
-          <h1 id="project_title">Globalinc</h1>
-          <h2 id="project_tagline">Visualisation of the Global Income Distribution since 1980</h2>
-
-          
-        </header>
-    </div>
   
   <body>
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p class="right"><a href="http://www.core-econ.org/"><img src="/Globalinc/img/core-logo-red.png" alt="image" class="img-responsive" height="30%" width="30%" /></a></p>
+        <p class="right"><a href="http://www.core-econ.org/"><img src="/WIDmarket_income_inequality/img/core-logo-red.png" alt="image" class="img-responsive" height="30%" width="30%" /></a></p>
 
 <h2 id="about">About</h2>
 
 <p>Here we use PPP-adjusted data on real incomes from the <a href="http://gcip.info/">Global Consumption and Income Project</a> to build an interactive visualisation demonstrating the changing shape of global income since 1980.</p>
 
-<p><a href="/Globalinc/html/fig_1980.html" class="button">Click here to go to the graphs</a></p>
+<p><a href="/WIDmarket_income_inequality/html/fig_1980.html" class="button">Click here to go to the graphs</a></p>
 
-<p>You can also download the data here in <a href="https://raw.githubusercontent.com/jackblun/Globalinc/master/GCIPrawdata.xlsx" download="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/jackblun/Globalinc/master/GCIPrawdata.csv" download="download"> csv </a> formats.</p>
+<p>You can also download the data here in <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/GCIPrawdata.xlsx" download="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/GCIPrawdata.csv" download="download"> csv </a> formats.</p>
 
 <p>Taller blocks correspond to higher incomes. Countries with larger populations are assigned more blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Countries are ordered according to mean income level in each year, while holding colours fixed from the 1980 levels. Therefore with these figures we can see inequality within and across countries over time as well as changes in average income.</p>
 
-<p><a href="html/fig_1980.html"><img src="/Globalinc/img/1980_clip.PNG" alt="1980_clip" class="img-responsive" height="100%" width="100%" /></a></p>
+<p><a href="html/fig_1980.html"><img src="/WIDmarket_income_inequality/img/1980_clip.PNG" alt="1980_clip" class="img-responsive" height="100%" width="100%" /></a></p>
 
 <p>This work was created for <a href="http://www.core-econ.org/">The CORE Project</a>. CORE is an open-access, interactive ebook-based course for anyone interested in learning about the economy and economics.</p>
 

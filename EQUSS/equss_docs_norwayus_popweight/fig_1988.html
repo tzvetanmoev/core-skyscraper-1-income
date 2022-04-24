@@ -1,0 +1,1169 @@
+
+<!--Comment-->
+<!DOCTYPE html>
+<html>
+<head><link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'><style>
+a:link {
+  color: #F55754;
+}
+/* visited link */
+  a:visited {
+    color: #F55754;
+  }
+/* mouse over link */
+  a:hover {
+    color: #F55754;
+  }
+/* selected link */
+  a:active {
+    color: #F55754;
+  }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+body {
+  padding: 0px 0px 0px 0px;
+  background-color: #F3F2F7;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+div {
+  background-color: #F3F2F7;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+position: absolute;
+  top: 0px;
+  left: 0px;
+margin-top: 0;
+font-weight: bold;
+font-size: 25px;
+display: inline-block;
+  color: white;
+  padding: 15px 5px 15px 5px;
+  background-color: #F55754;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.topleft {
+    position: absolute;
+top: 13px;
+left: 13px;
+    font-size: 18px;
+      background-color: #F55754;
+}
+</style>
+</head>
+<body>
+<body>
+<div class = "header"> <center> Global Income Distribution - 1988</center> </div>
+<div class = "topleft">
+<a href="http://www.core-econ.org/">
+<img align= "left"border="0" alt="CORE" src="../img/core-logo-bw.png" width="100%" height="100%">
+</a>
+</div>
+<br>
+<br>
+<br>
+<center>
+		<title>Global Income Distribution | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/plugins/export/export.js"></script>
+		<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css">
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("chartdiv",
+				{
+					"type": "serial",
+					"categoryField": "Label",
+					"columnWidth": 1,
+					"angle": 30,
+					"depth3D": 170,
+					"marginLeft": 40,
+					"marginRight": 200,
+					"marginBottom": 100,
+					"marginTop": 70,
+					"minMarginBottom": 80,
+					"sequencedAnimation": false,
+					"startDuration": 0.000000000000, //0.00001 for animation
+					"startEffect": "easeOutSine",	
+					"theme": "light",
+					"accessible": true,
+					"mouseWheelZoomEnabled": false,
+					"precision": 0,
+					"gridAboveGraphs": false,
+					"export": {
+						"enabled": true
+					},
+					"categoryAxis": {
+						"gridPosition": "start",
+						"axisAlpha": 0,
+						"labelOffset": -5,
+						"labelsEnabled": true,
+						"minHorizontalGap": 5,
+						"minVerticalGap": 5,
+						"labelColorField": "Label colour",
+						"labelRotation": 25,
+						"gridCount": 10000,
+						"gridAlpha": 0.1,
+						"minorGridEnabled": true,
+						"minorGridAlpha": 1,
+						"minorTickLength": 10,
+					},
+					"valueScrollbar": {
+						"enabled": false
+					},
+					//"chartCursor": {
+					//	"enabled": true,
+					//	"animationDuration": 0,
+					//	"avoidBalloonOverlapping": false,
+					//	"bulletsEnabled": true,
+					//	"bulletSize": 13,
+					//	"leaveCursor": true,
+					//	"limitToGraph": "AmGraph-10",
+					//	"oneBalloonOnly": true,
+					//	"pan": true,
+					//	"tabIndex": 5
+				//	},
+					"trendLines": [],
+					"graphs": [
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"behindColumns": true,
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-1",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 1",
+							"type": "column",
+							"valueField": "Decile 1",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-2",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 2",
+							"type": "column",
+							"valueField": "Decile 2",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-3",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 3",
+							"type": "column",
+							"valueField": "Decile 3",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-4",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 4",
+							"type": "column",
+							"valueField": "Decile 4",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-5",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 5",
+							"type": "column",
+							"valueField": "Decile 5",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-6",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 6",
+							"type": "column",
+							"valueField": "Decile 6",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"							
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-7",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 7",
+							"type": "column",
+							"valueField": "Decile 7",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-8",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 8",
+							"type": "column",
+							"valueField": "Decile 8",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-9",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 9",
+							"type": "column",
+							"valueField": "Decile 9",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						},
+						{
+							"alphaField": "Transparency",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"fillAlphas": 1,
+							"fillColors": "#6899b5",
+							"id": "AmGraph-10",
+							"lineAlpha": 0.9,
+							"lineColor": "#74bee9",
+							"title": "Decile 10",
+							"type": "column",
+							"valueField": "Decile 10",
+							"fillColorsField": "Colour",
+							"lineColorField": "Colour"
+						}
+					],
+					"guides": [
+							{
+							"balloonText": "Taller blocks correspond to higher incomes. Countries with larger populations are assigned more blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Try hovering over a block to learn more!",
+							"category": "X",
+							"dashLength": 4,
+							"expand": true,
+							"id": "Guide-1",
+							"inside": true,
+							"label": "",
+							"lineAlpha": 1,
+							"position": "right",
+							"toCategory": "X",
+							"toValue": 100000,
+							"value": 0,
+							"valueAxis": "ValueAxis-1",
+										"position": "top",
+													"inside": true
+							}
+						],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"stackType": "3d",
+							"title": "Annual Income (2005$ PPP)",
+							"maximum": 100000,
+							"titleFontSize": 15
+						}
+					],
+					"allLabels": [
+						{
+							"id": "Label-1",
+							"size": 15,
+							"text": "Poorer countries",
+							"x": "10%",
+							"y": "95%"
+						},
+						{
+							"id": "Label-2",
+							"size": 15,
+							"text": "Richer countries",
+							"x": "70%",
+							"y": "95%"
+					//	},
+					//	{
+					//		"id": "Label-3",
+					//		"size": 12,
+					//		"text": "Poorer to richer people",
+					//		"x": "76%",
+					//		"y": "86%",
+					//		"rotation": -30.6
+					//	},
+					//	{
+					//		"id": "Label-3",
+					//		"size": 12,
+					//		"text": "within a country",
+					//		"x": "77%",
+					//		"y": "87%",
+					//		"rotation": -30.6
+						}
+					],					
+					"balloon": {
+						"fixedPosition": false
+					},
+					"dataProvider": [
+					// insert data here
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "United States",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "United States",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "United States",
+"Decile 1": "3226.4976",
+"Decile 2": "5910.288",
+"Decile 3": "8251.944",
+"Decile 4": "10459.356",
+"Decile 5": "12687.24",
+"Decile 6": "15097.884",
+"Decile 7": "17929.68",
+"Decile 8": "21659.088",
+"Decile 9": "27656.46",
+"Decile 10": "45770.232",
+"Colour": "#048000",
+"Label": "",
+},
+{
+"cat": "Norway",
+"Decile 1": "1862.4348",
+"Decile 2": "5177.7696",
+"Decile 3": "8418.9768",
+"Decile 4": "11751.8772",
+"Decile 5": "15276.384",
+"Decile 6": "19109.52",
+"Decile 7": "23434.44",
+"Decile 8": "28609.86",
+"Decile 9": "35589.492",
+"Decile 10": "51846.24",
+"Colour": "#349900",
+"Label": "Norway",
+},
+						//data ends here
+					]
+				}
+			);
+		</script>
+		<div id="chartdiv" style="width: 100%; height: 600px; background-color: #F3F2F7;" ></div>
+ <br/>Download the data in <a href="https://raw.githubusercontent.com/jackblun/Globalinc/master/GCIPrawdata.xlsx" download ="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/jackblun/Globalinc/master/GCIPrawdata.csv" download ="download"> csv </a> formats, pick another year, or return to the <a href="https://jackblun.github.io/Globalinc/">home</a> page to learn more about the project <br /> <br />
+   <a href="fig_1987.html"><<< Previous year</a> -------  <a href="fig_1989.html">Next year >>></a>
+ <br/> <br/>   <a href="fig_1980.html">1980</a>
+   <a href="fig_1981.html">1981</a>
+   <a href="fig_1982.html">1982</a>
+   <a href="fig_1983.html">1983</a>
+   <a href="fig_1984.html">1984</a>
+   <a href="fig_1985.html">1985</a>
+   <a href="fig_1986.html">1986</a>
+   <a href="fig_1987.html">1987</a>
+   <a href="fig_1988.html">1988</a>
+   <a href="fig_1989.html">1989</a>
+   <a href="fig_1990.html">1990</a>
+   <a href="fig_1991.html">1991</a>
+   <a href="fig_1992.html">1992</a>
+   <a href="fig_1993.html">1993</a>
+   <a href="fig_1994.html">1994</a>
+   <a href="fig_1995.html">1995</a>
+   <a href="fig_1996.html">1996</a>
+   <a href="fig_1997.html">1997</a>
+   <a href="fig_1998.html">1998</a>
+   <a href="fig_1999.html">1999</a>
+   <a href="fig_2000.html">2000</a>
+   <a href="fig_2001.html">2001</a>
+   <a href="fig_2002.html">2002</a>
+   <a href="fig_2003.html">2003</a>
+   <a href="fig_2004.html">2004</a>
+   <a href="fig_2005.html">2005</a>
+   <a href="fig_2006.html">2006</a>
+   <a href="fig_2007.html">2007</a>
+   <a href="fig_2008.html">2008</a>
+   <a href="fig_2009.html">2009</a>
+   <a href="fig_2010.html">2010</a>
+   <a href="fig_2011.html">2011</a>
+   <a href="fig_2012.html">2012</a>
+   <a href="fig_2013.html">2013</a>
+   <a href="fig_2014.html">2014</a>
+
+ <br/> <br/>
+These are detailed figures so may take a little time to load. Taller blocks correspond to higher incomes. Countries with larger populations are assigned more blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Countries are ordered according to mean income level in each year, while holding colours fixed from the 1980 levels. Therefore with these figures we can see inequality within and across countries over time as well as changes in average income. Try hovering over a block to learn more!
+ <br/> <br/>
+Source: Global Consumption and Income Project
+ <br/> <br/>
+Countries with population size under 750,000 are omitted. The following countries included in GCIP are omitted from the graphs due to statistical problems: Singapore (before 2000), Uganda, Bosnia and Herzegovina (from 1996), Georgia (from 1996), New Zealand. These countries constituted less than 0.1% of world population in 2014.
+</center>
+ </body>
+</html>

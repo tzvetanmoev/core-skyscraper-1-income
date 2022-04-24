@@ -30,7 +30,7 @@
 
 <p>Questions? Comments? Concerns? Get in touch using tzvetan.moev@kcl.ac.uk.</p>
 
-<p>This was firstly created by Jack Blundel. MASSIVE THANKS GOES TO HIM... I have used mostly his code to code this website which updates his earlier work. </a></p>
+<p>This was firstly created by Jack Blundell. MASSIVE THANKS GOES TO HIM... I have used mostly his code to code this website which updates his earlier work. </a></p>
 
 <h2 id="countries-included-in-gcip">Countries included in GCIP</h2>
 

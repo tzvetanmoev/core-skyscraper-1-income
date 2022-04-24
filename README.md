@@ -13,6 +13,8 @@
 <p>Here we use PPP-adjusted data on real incomes from the <a href="http://gcip.info/">Global Consumption and Income Project</a> to build an interactive visualisation demonstrating the changing shape of global income since 1980.</p>
 
 <p><a href="/WIDmarket_income_inequality/docs/html/fig_1980.html" class="button">Click here to go to the graphs</a></p>
+        
+ <p><a href="docs/html/fig_1980.html" class="button">Click here to go to the graphs SECOND ATTEMPT</a></p>
 
 <p>You can also download the data here in <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/GCIPrawdata.xlsx" download="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/GCIPrawdata.csv" download="download"> csv </a> formats.</p>
 

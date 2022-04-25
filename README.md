@@ -47,21 +47,6 @@
 
 <p>The was firstly created by Jack Blundell. MASSIVE THANKS GOES TO HIM... I have used mostly his code to code this website which updates his earlier work. </a></p>
 
-<h2 id="updates">Updates</h2>
-
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        
-        <p class="copyright">Globalinc maintained by <a href="https://github.com/jackblun">jackblun</a></p>
-        
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
     
   </body>

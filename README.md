@@ -25,7 +25,7 @@
 
 <h2 id="about">About</h2>
 
-<p>Here we use PPP-adjusted data on real incomes from the <a href="http://gcip.info/">Global Consumption and Income Project</a> to build an interactive visualisation demonstrating the changing shape of global income since 1980.</p>
+<p>Here we use PPP-adjusted data on market income from the <a href="https://wid.world/">World Inequality Database</a> to build an interactive visualisation demonstrating the changing shape of global market income since 1980.</p>
 
 <p><a href="/WIDmarket_income_inequality/docs/html/fig_1980.html" class="button">Click here to go to the graphs</a></p>
 

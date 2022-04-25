@@ -2,28 +2,6 @@
 <html lang="en-US">
 <html>
 
-<head>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <meta name="description" content="Globalinc : Visualisation of the Global Income Distribution since 1980">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="/WIDmarket_income_inequality/docs/assets/css/style.css?v=26b087d95314da8656b0e41ad0d10491f8ad36dc">
-
-    <title>WIDmarket_income_inequality</title>
-  </head>
-  
-     <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href=""></a>
-
-          <h1 id="project_title">WIDmarket_income_inequality</h1>
-          <h2 id="project_tagline">Visualisation of the Global Income Distribution since 1980</h2>
-          
-        </header>
-    </div>
-  
   
   <body>
     <!-- MAIN CONTENT -->

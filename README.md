@@ -20,7 +20,6 @@
 
           <h1 id="project_title">WIDmarket_income_inequality</h1>
           <h2 id="project_tagline">Visualisation of the Global Income Distribution since 1980</h2>
-
           
         </header>
     </div>
@@ -30,7 +29,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p class="right"><a href="http://www.core-econ.org/"><img src="/WIDmarket_income_inequality/docs/img/core-logo-red.png" alt="image" class="img-responsive" height="30%" width="30%" /></a></p>
+        <p class="right"><a href="http://www.core-econ.org/"><img src="/docs/img/core-logo-red.png" alt="image" class="img-responsive" height="30%" width="30%" /></a></p>
 
 
 

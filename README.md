@@ -37,6 +37,9 @@
 
 <p>Here we use PPP-adjusted data on market income from the <a href="https://wid.world/">World Inequality Database</a> to build an interactive visualisation demonstrating the changing shape of global market income since 1980.</p>
 
+          
+          
+          
 <p><a href="/WIDmarket_income_inequality/docs/html/fig_1980.html" class="button">Click here to go to the graphs</a></p>
 
 <p>You can also download the data here in <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/wid_pretax_usd21_wide.xlsx" download="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/wid_pretax_usd21_wide.csv" download="download"> csv </a> formats.</p>

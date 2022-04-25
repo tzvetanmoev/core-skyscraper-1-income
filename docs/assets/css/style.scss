@@ -1,0 +1,108 @@
+---
+---
+
+@import "{{ site.theme }}";
+.button {
+    background-color: #F55754; /* Red */
+    border: none;
+    color: white;
+    padding: 16px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: auto;
+}
+
+#header_wrap {
+  background: #F55754;
+  background: -moz-linear-gradient(top, #F55754, #F55754);
+  background: -webkit-linear-gradient(top, #F55754, #F55754);
+  background: -ms-linear-gradient(top, #F55754, #F55754);
+  background: -o-linear-gradient(top, #F55754, #F55754);
+  background: linear-gradient(top, #F55754, #F55754);
+}
+
+header { 
+    background: #F55754;
+}
+
+h1 {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 36px;
+}
+
+body {
+  color:#373737;
+  background: #F3F2F7;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: #F55754;
+  text-shadow: none;
+
+  transition: color 0.5s ease;
+  transition: text-shadow 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -webkit-transition: text-shadow 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -ms-transition: text-shadow 0.5s ease;
+}
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 00px;
+  z-index: 10;
+  padding: 1px 1px 1px 1px;
+  background: url('https://github.com/jackblun/Globalinc/blob/master/docs/img/core_logo.png');
+  font-weight: 700;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#project_title {
+  margin: 0;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  text-shadow: #111 0px 0px 0px;
+}
+
+#project_tagline {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  background: none;
+  text-shadow: #111 0px 0px 0px;
+}
+
+
+#main_content_wrap {
+  background: #F3F2F7;
+  border-top: 0px solid #111;
+  border-bottom: 0px solid #111;
+}
+
+#header_wrap .inner {
+  padding: 18px 5px 13px 5px;
+}
+
+.img_container{
+  text-align: right;
+}
+
+/* To right-align images */
+.right {
+    text-align: right;
+}

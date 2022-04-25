@@ -1,6 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
+<html>
+<head><link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'><style>
+a:link {
+  color: #F55754;
+}
+/* visited link */
+  a:visited {
+    color: #F55754;
+  }
+/* mouse over link */
+  a:hover {
+    color: #F55754;
+  }
+/* selected link */
+  a:active {
+    color: #F55754;
+  }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+body {
+  padding: 0px 0px 0px 0px;
+  background-color: #F3F2F7;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+div {
+  background-color: #F3F2F7;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+position: absolute;
+  top: 0px;
+  left: 0px;
+margin-top: 0;
+font-weight: bold;
+font-size: 25px;
+display: inline-block;
+  color: white;
+  padding: 15px 5px 15px 5px;
+  background-color: #F55754;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.topleft {
+    position: absolute;
+top: 13px;
+left: 13px;
+    font-size: 18px;
+      background-color: #F55754;
+}
+</style>
+</head>
+<body>
+<body>
+<div class = "header"> <center> Global Income Distribution - 1980</center> </div>
+<div class = "topleft">
+<a href="http://www.core-econ.org/">
+<img align= "left"border="0" alt="CORE" src="../img/core-logo-bw.png" width="100%" height="100%">
+</a>
+</div>
+<br>
+<br>
+<br>
   
   <body>
     <!-- MAIN CONTENT -->
@@ -13,8 +86,6 @@
 <p>Here we use PPP-adjusted data on real incomes from the <a href="http://gcip.info/">Global Consumption and Income Project</a> to build an interactive visualisation demonstrating the changing shape of global income since 1980.</p>
 
 <p><a href="/WIDmarket_income_inequality/docs/html/fig_1980.html" class="button">Click here to go to the graphs</a></p>
-        
- <p><a href="docs/html/fig_1980.html" class="button">Click here to go to the graphs SECOND ATTEMPT</a></p>
 
 <p>You can also download the data here in <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/GCIPrawdata.xlsx" download="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/GCIPrawdata.csv" download="download"> csv </a> formats.</p>
 

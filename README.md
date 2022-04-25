@@ -7,7 +7,6 @@
 </head>
 <body>
 <body>
-<div class = "header"> <center> Global Income Distribution - 1980</center> </div>
 <div class = "topleft">
 <a href="http://www.core-econ.org/">
 <img align= "left"border="0" alt="CORE" src="docs/img/core-logo-bw.png" width="100%" height="100%">

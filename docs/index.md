@@ -12,7 +12,7 @@ Here we use PPP-adjusted data on real incomes from the [World Inequality Databas
 
 [Click here to go to the graphs](html/fig_1980.html){: .button}
 
-You can also download the data here in <a href="https://raw.githubusercontent.com/jackblun/Globalinc/master/GCIPrawdata.xlsx" download ="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/jackblun/Globalinc/master/GCIPrawdata.csv" download ="download"> csv </a> formats.
+You can also download the data here in <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/wid_pretax_usd21_wide.xlsx" download ="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income_inequality/master/wid_pretax_usd21_wide.csv" download ="download"> csv </a> formats.
  
 Taller blocks correspond to higher incomes. Countries with larger populations are assigned more blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Countries are ordered according to mean income level in each year, while holding colours fixed from the 1980 levels. Therefore with these figures we can see inequality within and across countries over time as well as changes in average income.
 

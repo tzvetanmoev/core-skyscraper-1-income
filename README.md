@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <html>
-<head><link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'><style>
+<head><link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
-</style>
+
 </head>
 <body>
 <body>

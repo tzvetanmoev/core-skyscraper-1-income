@@ -9,7 +9,7 @@
 <body>
 <div class = "topleft">
 <a href="http://www.core-econ.org/">
-<img align= "left"border="0" alt="CORE" src="docs/img/core-logo-bw.png" width="100%" height="100%">
+<img align= "left"border="0" alt="CORE" src="docs/img/core-logo-red.png" width="100%" height="100%">
 </a>
 </div>
 <br>

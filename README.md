@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <meta name="description" content="Globalinc : Visualisation of the Global Income Distribution since 1980">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/WIDmarket_income_inequality/dics/assets/css/style.css?v=26b087d95314da8656b0e41ad0d10491f8ad36dc">
+    <link rel="stylesheet" type="text/css" media="screen" href="/WIDmarket_income_inequality/docs/assets/css/style.css?v=26b087d95314da8656b0e41ad0d10491f8ad36dc">
 
     <title>WIDmarket_income_inequality</title>
   </head>

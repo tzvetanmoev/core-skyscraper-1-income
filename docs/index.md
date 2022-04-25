@@ -16,7 +16,7 @@ You can also download the data here in <a href="https://raw.githubusercontent.co
  
 Taller blocks correspond to higher incomes. Countries with larger populations are assigned more blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Countries are ordered according to mean income level in each year, while holding colours fixed from the 1980 levels. Therefore with these figures we can see inequality within and across countries over time as well as changes in average income.
 
-[![image](/img/1980_clip.png){:class="img-responsive" height="100%" width="100%"}](http://www.core-econ.org/)
+[![image](/img/fig_1980.svg){:class="img-responsive" height="100%" width="100%"}](http://www.core-econ.org/)
 
 This work was created for [The CORE Project](http://www.core-econ.org/). CORE is an open-access, interactive ebook-based course for anyone interested in learning about the economy and economics.
 

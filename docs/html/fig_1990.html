@@ -2,9 +2,82 @@
 <!--Comment-->
 <!DOCTYPE html>
 <html>
-
+<head><link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'><style>
+a:link {
+  color: #F55754;
+}
+/* visited link */
+  a:visited {
+    color: #F55754;
+  }
+/* mouse over link */
+  a:hover {
+    color: #F55754;
+  }
+/* selected link */
+  a:active {
+    color: #F55754;
+  }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+body {
+  padding: 0px 0px 0px 0px;
+  background-color: #F3F2F7;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+div {
+  background-color: #F3F2F7;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+position: absolute;
+  top: 0px;
+  left: 0px;
+margin-top: 0;
+font-weight: bold;
+font-size: 25px;
+display: inline-block;
+  color: white;
+  padding: 15px 5px 15px 5px;
+  background-color: #F55754;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.topleft {
+    position: absolute;
+top: 13px;
+left: 13px;
+    font-size: 18px;
+      background-color: #F55754;
+}
+</style>
+</head>
 <body>
-
+<body>
+<div class = "header"> <center> Global Market Income Inequality - 1990</center> </div>
+<div class = "topleft">
+<a href="https://www.core-econ.org/">
+<img align= "left"border="0" alt="CORE" src="../img/core-logo-bw.png" width="100%" height="100%">
+</a>
+</div>
+<br>
+<br>
+<br>
+<center>
+		<title> Global Market Income Distribution | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
 
 		<!-- amCharts javascript sources -->
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
@@ -71,7 +144,7 @@
 					"graphs": [
 						{
 							"alphaField": "Transparency",
-							"balloonText": "[[title]] of [[cat]]: $[[value]]",
+							"balloonText": "[[title]] of [[cat]]: [[value]]",
 							"behindColumns": true,
 							"fillAlphas": 1,
 							"fillColors": "#6899b5",
@@ -213,7 +286,7 @@
 					],
 					"guides": [
 							{
-							"balloonText": "Taller blocks correspond to higher incomes. Countries with larger populations are assigned more blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Try hovering over a block to learn more!",
+							"balloonText": "Taller blocks correspond to higher market income. Countries with larger populations are assigned thicker blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Try hovering over a block to learn more!",
 							"category": "X",
 							"dashLength": 4,
 							"expand": true,
@@ -240,7 +313,6 @@
 						}
 					],
 					"allLabels": [
-						
 						{
 							"id": "Label-1",
 							"size": 15,
@@ -275,14 +347,7 @@
 					"balloon": {
 						"fixedPosition": false
 					},
-					"titles": [
-						{
-							"id": "Title-1",
-							"size": 20,
-							"text": "Global Market Income Distribution 1990"
-						}
-					],
-"dataProvider": [
+					"dataProvider": [
 					// insert data here
 {
 "cat": "South Sudan",
@@ -1830,7 +1895,7 @@
 "Label": "",
 },
 {
-"cat": "Cote dâ€™Ivoire",
+"cat": "Cote d’Ivoire",
 "Decile 1": "191.764167651428",
 "Decile 2": "1534.1228807887",
 "Decile 3": "2588.43281376418",
@@ -3344,15 +3409,15 @@
 "Colour": "#118700",
 "Label": "",
 },
-					
 						//data ends here
 					]
 				}
 			);
 		</script>
-		
-
-  pick a year: <br/> <br/>   <a href="fig_1980.html">1980</a>
+		<div id="chartdiv" style="width: 100%; height: 600px; background-color: #F3F2F7;" ></div>
+ <br/>Download the data in <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income/master/wid_pretax_usd21_wide.xlsx" download ="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/WIDmarket_income/master/wid_pretax_usd21_wide.csv" download ="download"> csv </a> formats, pick another year, or return to the <a href="https://tzvetanmoev.github.io/WIDmarket_income/">home</a> page to learn more about the project <br /> <br />
+   <a href="fig_1989.html"><<< Previous year</a> -------  <a href="fig_1991.html">Next year >>></a>
+ <br/> <br/>   <a href="fig_1980.html">1980</a>
    <a href="fig_1981.html">1981</a>
    <a href="fig_1982.html">1982</a>
    <a href="fig_1983.html">1983</a>
@@ -3387,12 +3452,19 @@
    <a href="fig_2012.html">2012</a>
    <a href="fig_2013.html">2013</a>
    <a href="fig_2014.html">2014</a>
-	<a href="fig_2015.html">2015</a>
-	<a href="fig_2016.html">2016</a>
-	<a href="fig_2017.html">2017</a>
-	<a href="fig_2018.html">2018</a>
-	<a href="fig_2019.html">2019</a>
-	<a href="fig_2020.html">2020</a>
-	<div id="chartdiv" style="width: 100%; height: 600px; background-color: #F3F2F7;" ></div>
+   <a href="fig_2015.html">2015</a>
+   <a href="fig_2016.html">2016</a>
+   <a href="fig_2017.html">2017</a>
+   <a href="fig_2018.html">2018</a>
+   <a href="fig_2019.html">2019</a>
+   <a href="fig_2020.html">2020</a>
+
+ <br/> <br/>
+These are detailed figures, so they may take a little time to load. Taller  blocks correspond to higher market income. Countries with larger populations are assigned thicker blocks. Colours correspond to how rich the country is in 1980, with poorer countries shaded red and richer countries shaded green. Countries are ordered according to national income per capita in each year, while holding colours fixed from the 1980 ordering. Therefore,  with these figures we can see market income inequality within and across countries over time as well as changes in national income per capita. Try hovering over a block to learn more!
+ <br/> <br/>
+Source: World Inequality Database
+ <br/> <br/>
+Countries with population size under 750,000 are omitted.
+</center>
  </body>
 </html>

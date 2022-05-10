@@ -8,7 +8,7 @@ title: World Market Income Distribution
 
 ## About
 
-We build an interactive visualisation demonstrating the changing distribution of global market income since 1980. Our PPP-adjusted data on market income comes from the World Inequality Database (WID).
+We build an interactive visualisation demonstrating the changing distribution of global market income since 1980. Our PPP-adjusted data on market income comes from the [World Inequality Database](https://wid.world//) (WID).
 
 [Click here to go to the graphs](html/fig_2020.html){: .button}
 

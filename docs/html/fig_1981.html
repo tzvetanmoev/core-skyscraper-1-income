@@ -77,7 +77,6 @@ left: 13px;
 <br>
 <center>
 		<title> Global Market Income Distribution | amCharts</title>
-		<meta name="description" content="chart created using amCharts live editor" />
 
 		<!-- amCharts javascript sources -->
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
@@ -144,7 +143,7 @@ left: 13px;
 					"graphs": [
 						{
 							"alphaField": "Transparency",
-							"balloonText": "[[title]] of [[cat]]: [[value]]",
+							"balloonText": "[[title]] of [[cat]]: $[[value]]",
 							"behindColumns": true,
 							"fillAlphas": 1,
 							"fillColors": "#6899b5",
@@ -347,6 +346,13 @@ left: 13px;
 					"balloon": {
 						"fixedPosition": false
 					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 20,
+							"text": "Global Market Income Distribution 1981"
+						}
+					],
 					"dataProvider": [
 					// insert data here
 {

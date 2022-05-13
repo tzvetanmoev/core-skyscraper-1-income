@@ -25,11 +25,11 @@ You can also explore similar interactive visualisations of the global *wealth* d
 
 ## Contact
 
-Questions? Comments? Concerns? Get in touch with me Tzvetan Moev using tz.moev@gmail.com or tzvetan.moev@kcl.ac.uk
+Questions? Comments? Concerns? Get in touch with Tzvetan Moev using tz.moev@gmail.com or tzvetan.moev@kcl.ac.uk
 
 ## Acknowledgments
 
-This website is an updated version of Jack Blundell's <a href="https://jackblun.github.io/Globalinc/">Globalinc</a>. I have mostly used his coding for this project, so we owe him a massive thanks. This could not have been possible without his efforts. 
+This website is an updated version of Jack Blundell's <a href="https://jackblun.github.io/Globalinc/">Globalinc</a>. We have mostly used his coding for this project, so we owe him a massive thanks. This could not have been possible without his efforts. 
 
 For more information on how WID collects data on wealth and income, please refer to [this report](https://wid.world/news-article/2020-distributional-national-accounts-guidelines-dina/).
 

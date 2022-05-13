@@ -1,6 +1,7 @@
 ---
 ---
-$content-width:    100px;
+
+
 @import "{{ site.theme }}";
 .button {
     background-color: #F55754; /* Red */
@@ -37,8 +38,8 @@ body {
   background: #F3F2F7;
   font-size: 16px;
   font-family: Verdana, Geneva, sans-serif;
-  text-width: 10%;
   line-height: 1.5;
+  width: calc(10% - #{$right-sidebar-width-narrow});
   -webkit-font-smoothing: antialiased;
 }
 

@@ -17,7 +17,7 @@ We examine the global market income inequality.
 
 In particular, we study the distribution of market (or pretax) income across different countries via skyscraper diagrams.
 
-See the resulting website at [WIDmarket_income](https://tzvetanmoev.github.io/WIDmarket_income/).
+See the resulting website at [GlobalMarketInc](https://tzvetanmoev.github.io/GlobalMarketInc/).
 
     
   </body>

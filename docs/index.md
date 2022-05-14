@@ -23,6 +23,7 @@ These visualisations were created for [The CORE Project](http://www.core-econ.or
 You can also explore similar interactive visualisations of the global *wealth* distribution and the global distribution of *carbon emissions* in our companion websites: [GlobalWealth](https://tzvetanmoev.github.io/GlobalWealth/) and [GlobalCarb](https://tzvetanmoev.github.io/GlobalCarb/).
 
 
+
 ## Contact
 
 Questions? Comments? Concerns? Get in touch with Tzvetan Moev using tz.moev@gmail.com or tzvetan.moev@kcl.ac.uk

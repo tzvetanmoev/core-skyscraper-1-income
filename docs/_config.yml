@@ -1,5 +1,5 @@
-theme: jekyll-theme-slate
-name: Global Income Distribution
+theme: jekyll-theme-leap-day
+name: Global Market Income Distribution
 
 kramdown:
   parse_block_html: true

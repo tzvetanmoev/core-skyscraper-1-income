@@ -12,7 +12,7 @@ We build an interactive visualisation demonstrating the changing distribution of
 
 [Click here to go to the graphs](html/fig_2020.html){: .button}
 
-You can also download the data here in <a href="https://raw.githubusercontent.com/tzvetanmoev/GlobalMarketInc/master/wid_pretax_usd21_wide.xlsx" download ="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/GlobalMarketInc/master/wid_pretax_usd21_wide.csv" download ="download"> csv </a> formats.
+You can also download the data here in <a href="https://raw.githubusercontent.com/tzvetanmoev/core-skyscraper-1-income/master/wid_pretax_usd21_wide.xlsx" download ="download"> xlsx </a> or <a href="https://raw.githubusercontent.com/tzvetanmoev/core-skyscraper-1-income/master/wid_pretax_usd21_wide.csv" download ="download"> csv </a> formats.
  
 Below you can see the global market income distribution in 2020. Taller blocks correspond to higher market income. Countries with larger populations are assigned wider blocks. Colours correspond to how rich the country was in 1980, with poorer countries shaded red and richer countries shaded green. Countries are ordered according to their national income per capita in each year, while holding colours fixed from the 1980 ordering. Therefore, with these figures we can see income inequality within and across countries over time as well as changes in national per capita income. Click on the picture to zoom into the global market income distribution.
 
@@ -20,7 +20,7 @@ Below you can see the global market income distribution in 2020. Taller blocks c
 
 These visualisations were created for [The CORE Project](http://www.core-econ.org/). CORE is an open-access, interactive ebook-based course for anyone interested in learning about the economy and economics.
 
-You can also explore similar interactive visualisations of the global *wealth* distribution and the global distribution of *carbon emissions* in our companion websites: [GlobalWealth](https://tzvetanmoev.github.io/GlobalWealth/) and [GlobalCarb](https://tzvetanmoev.github.io/GlobalCarb/).
+You can also explore similar interactive visualisations of the global *wealth* distribution and the global distribution of *carbon emissions* in our companion websites: [CORE Skyscraper 2: Exploring global wealth inequality](https://tzvetanmoev.github.io/core-skyscraper-2-wealth/) and [CORE Skyscraper 3: Exploring global carbon footprint inequality](https://tzvetanmoev.github.io/core-skyscraper-3-carbon/).
 
 
 

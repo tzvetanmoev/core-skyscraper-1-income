@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 .button {
-    background-color: #F55754; /* Red */
+    background-color: #F05A5B; /* Red */
     border: none;
     color: white;
     padding: 16px 30px;
@@ -15,20 +15,20 @@
 }
 
 #header_wrap {
-  background: #F55754;
-  background: -moz-linear-gradient(top, #F55754, #F55754);
-  background: -webkit-linear-gradient(top, #F55754, #F55754);
-  background: -ms-linear-gradient(top, #F55754, #F55754);
-  background: -o-linear-gradient(top, #F55754, #F55754);
-  background: linear-gradient(top, #F55754, #F55754);
+  background: #F05A5B;
+  background: -moz-linear-gradient(top, #F05A5B, #F05A5B);
+  background: -webkit-linear-gradient(top, #F05A5B, #F05A5B);
+  background: -ms-linear-gradient(top, #F05A5B, #F05A5B);
+  background: -o-linear-gradient(top, #F05A5B, #F05A5B);
+  background: linear-gradient(top, #F05A5B, #F05A5B);
 }
 
 header { 
-    background: #F55754;
+    background: #F05A5B;
 }
 
 h1 {
-      font-family: Verdana, Geneva, sans-serif;
+      font-family: sans-serif, Verdana, Geneva;
       font-size: 36px;
 }
 
@@ -36,7 +36,7 @@ body {
   color:#373737;
   background: #F3F2F7;
   font-size: 16px;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: sans-serif, Verdana, Geneva;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
     content-width: 90%;
@@ -44,7 +44,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #F55754;
+  color: #F05A5B;
   text-shadow: none;
 
   transition: color 0.5s ease;

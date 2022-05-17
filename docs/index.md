@@ -32,7 +32,7 @@ Questions? Comments? Concerns? Get in touch with Tzvetan Moev using tz.moev@gmai
 
 This website is an updated version of Jack Blundell's <a href="https://jackblun.github.io/Globalinc/">Globalinc</a>. We have mostly used his coding for this project, so we owe him a massive thanks. This could not have been possible without his efforts. 
 
-For more information on how WID collects data on wealth and income, please refer to [this report](https://wid.world/news-article/2020-distributional-national-accounts-guidelines-dina/). For more information on how market income is calculated, search for variable *aptinc* in [this summary](https://wid.world/summary-table/) table on WID's website.
+For more information on how WID collects data on wealth and income, please refer to [this report](https://wid.world/news-article/2020-distributional-national-accounts-guidelines-dina/). For more information on how market income is calculated, search for variable *aptinc* in [this variable table](https://wid.world/summary-table/) on WID's website.
 
 Visualisations created using [amCharts](https://www.amcharts.com/). 
 

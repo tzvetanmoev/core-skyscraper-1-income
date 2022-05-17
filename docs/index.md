@@ -4,7 +4,7 @@ title: World Market Income Distribution
 
 
 {: .right}
-[![image](/img/core-logo-red.png){:class="img-responsive" height="30%" width="30%"}](http://www.core-econ.org/)
+[![image](/img/core_logo_no_strapline_no_background.png){:class="img-responsive" height="30%" width="30%"}](http://www.core-econ.org/)
 
 ## About
 

@@ -31,7 +31,7 @@ You can download the data here in <a href="https://raw.githubusercontent.com/tzv
 
 ## Contact
 
-Questions? Comments? Concerns? Get in touch with Tzvetan Moev using tz.moev@gmail.com or tzvetan.moev@kcl.ac.uk
+Questions? Comments? Concerns? Get in touch with Tzvetan Moev using tz.moev@gmail.com 
 
 ## Acknowledgments
 

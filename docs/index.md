@@ -10,6 +10,13 @@ title: World Market Income Distribution
 
 We build an interactive visualisation demonstrating the changing distribution of global market income since 1980. Our PPP-adjusted data on market income comes from the [World Inequality Database](https://wid.world//) (WID).
 
+# Watch how global inequality changed from 1980 to 2020.
+Play the video below to see China moving from being among the poorest countries to an upper-middle income country (according to the World Bank) over this period.
+And watch as inequality within countries increased all over the world, illustrated by the increasingly tall skyscrapers at the back of each country’s block.
+
+https://github.com/tzvetanmoev/core-skyscraper-1-income/blob/main/docs/core-video-file.mp4
+
+
 [Click here to go to the graphs](html/fig_2020.html){: .button}
  
 Below you can see the global market income distribution in 2020. Market income refers to the annual earnings of individuals before taking into account government transfers such as benefits and taxes. Taller blocks correspond to higher market income. Countries with larger populations are assigned wider blocks. Colours correspond to how rich the country was in 1980, with poorer countries shaded red and richer countries shaded green. Countries are ordered according to their national income per capita in each year, while holding colours fixed from the 1980 ordering. Therefore, with these figures we can see income inequality within and across countries over time as well as changes in national per capita income. Click on the picture to zoom into the global market income distribution.

@@ -16,7 +16,7 @@ We build an interactive visualisation demonstrating the changing distribution of
 - And watch as inequality within countries increased all over the world, illustrated by the increasingly tall skyscrapers at the back of each country’s block.
 
 <video width="600" controls>
-  <source src="core-video-file.mp4" type="core-video-file/mp4">
+  <source src="docs/core-video-file.mp4" type="core-video-file/mp4">
   Your browser does not support the video tag.
 </video>
 

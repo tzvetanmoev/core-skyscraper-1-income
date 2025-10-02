@@ -14,7 +14,10 @@ We build an interactive visualisation demonstrating the changing distribution of
 Play the video below to see China moving from being among the poorest countries to an upper-middle income country (according to the World Bank) over this period.
 And watch as inequality within countries increased all over the world, illustrated by the increasingly tall skyscrapers at the back of each country’s block.
 
-https://github.com/tzvetanmoev/core-skyscraper-1-income/blob/main/docs/core-video-file.mp4
+<video width="600" controls>
+  <source src="core-video-file.mp4" type="core-video-file/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 [Click here to go to the graphs](html/fig_2020.html){: .button}

@@ -10,7 +10,7 @@ title: World Market Income Distribution
 
 We build an interactive visualisation demonstrating the changing distribution of global market income since 1980. Our PPP-adjusted data on market income comes from the [World Inequality Database](https://wid.world//) (WID).
 
-# Watch how global inequality changed from 1980 to 2020.
+### Watch how global inequality changed from 1980 to 2020.
 Play the video below to see China moving from being among the poorest countries to an upper-middle income country (according to the World Bank) over this period.
 And watch as inequality within countries increased all over the world, illustrated by the increasingly tall skyscrapers at the back of each country’s block.
 
